@@ -16,7 +16,7 @@ const Contact = () => {
             style={{ filter: "opacity(0.7)" }}
             src='https://www.google.com/maps/embed/v1/place?q=630+N+14th+lincoln+nebraska&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8'
           />
-          <div className='bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md'>
+          <div className='bg-gray-900 relative flex flex-wrap py-6 lg:pr-6 rounded shadow-md'>
             <div className='lg:w-1/2 px-6'>
               <h2 className='title-font font-semibold text-white tracking-widest text-xs'>
                 ADDRESS
@@ -31,10 +31,10 @@ const Contact = () => {
                 EMAIL
               </h2>
               <a
-                className='text-indigo-400 leading-relaxed'
-                href="mailto:parker.miller@me.com?subject=Let's Connect!"
+                className='text-indigo-400 text-sm leading-relaxed'
+                href="mailto:parkermiller.career@gmail.com?subject=Let's Connect!"
               >
-                parker.miller@me.com
+                parkermiller.career@gmail.com
               </a>
             </div>
           </div>
@@ -47,7 +47,7 @@ const Contact = () => {
           <p className='leading-relaxed mb-5'>
             Like what you see or want to chat? Contact me and I'd love to chat!
           </p>
-          <a href="mailto:parker.miller@me.com?subject=Let's Connect!">
+          <a href="mailto:parkermiller.career@gmail.com?subject=Let's Connect!">
             {" "}
             <button
               type='submit'
