@@ -8,6 +8,14 @@ export const projects = [
     link: "https://vizn-stats.web.app/",
   },
   {
+    title: "Xport Bio",
+    subtitle: "Next.js",
+    description:
+      "Xport Bio allows for baseball coaches to scrape email addresses of baseball players. Typically, baseball players put their email addresses in their Twitter bio for recruiting purposes, and this application bridges the gap, helping both baseball coaches and baseball players.",
+    image: require("./assets/xportbio.png"),
+    link: "https://www.parker-miller.com",
+  },
+  {
     title: "Canvas-Notion Integration",
     subtitle: "Javascript and Firebase",
     description:
